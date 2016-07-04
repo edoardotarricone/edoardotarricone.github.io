@@ -1,0 +1,96 @@
+html, body {
+	background: url('https://s-media-cache-ak0.pinimg.com/originals/df/a9/32/dfa932e3c827597e15aff49b0b12dfde.jpg') no-repeat center center fixed;
+	background-size: cover;
+}
+
+/*HEADER*/
+
+.header {
+	background-color: #757b82;
+	opacity: 0.85;
+	height: 70px;
+}
+
+.header .col-md-8 .dropdown, .header p{
+	display: inline;
+	padding: 8px;
+}
+
+.dropdown {
+	position: relative;
+	display: inline;
+	cursor: pointer;
+}
+
+.dropdown-menu {
+	margin: 0;
+	opacity: 0.8;
+	background-color: #757b82;
+}
+.dropdown img {
+	margin-top: 15px;
+}
+.header p {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	color: white;
+	position: relative;
+	top: 11px;
+}
+
+.header ul {
+	list-style: none;
+}
+
+.header li {
+	display: inline;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	top: 19px;
+}
+
+.header .btn {
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+}
+
+
+/*SUPPORTING*/
+.supporting {
+	margin: 0;
+	padding: 0;
+
+}
+
+.supporting .col-md-3 {
+	position: relative;
+	top: 130px;
+}
+.supporting h1 {
+	color: white;
+	font-size: 70px;
+}
+
+/*FOOTER*/
+/*margin in footer are related on supporting content*/
+.footer {
+	background-color: #757b82;
+	opacity: 0.8;
+	height: 70px;
+}
+
+.footer .col-md-4 p {
+	color: white;
+	margin-top: 24px;
+}
+.footer .pull-right ul {
+	list-style: none;
+	margin-top: 20px;
+}
+
+.pull-right li {
+	display: inline;
+}
+
